@@ -1,4 +1,3 @@
-
 DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
 JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -13,10 +12,6 @@ def assembled_aoh
   { name:  "Bruce Green", occupation: "Fan of Mildred" }
     ]
 end
-
-
-  # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
